@@ -13,6 +13,9 @@
 // DO NOT DELETE - this directive is required for Sencha Cmd packages to work.
 //@require @packageOverrides
 
+ Ext.Loader.setConfig({enabled:true});
+ Ext.Loader.setPath('Ext.ux', 'app/view/ux');
+
 //<debug>
 Ext.Loader.setPath({
     'Ext': 'touch/src',
